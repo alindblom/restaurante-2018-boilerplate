@@ -2,6 +2,8 @@ body {
   position: relative;
 }
 
+/** home section **/
+
 .home-section {
     height:70vh;
     background: url('../img/hero.jpg');
@@ -21,11 +23,21 @@ body {
 .home-section h1, .home-section p {
     color:#ffffff;
     margin-bottom:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px #000;
 }
 
-.navbar-brand h1 {
-  font-size: 16px;
-  margin:0;
+.btn {
+  background-color: #f2f2f2;
+  color: #0e1519;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover, .btn:active {
+  background-color: #335266;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (min-width : 992px) {
@@ -40,6 +52,79 @@ body {
   }
 }
 
+/** nav bar **/
+
+.navbar {
+  background-color: #f2f2f2;
+}
+
+.navbar-brand h1 {
+  font-size: 20px;
+  margin:0;
+  color: #0e1519;
+  font-family:  'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.nav.navbar-nav.navbar-right a {
+  color: #0e1519;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+  background-color: #335266;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/** about section **/
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+h2, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/** menu section **/
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.menu-section p {
+  margin-bottom: 20px;
+}
+
+.nav-tabs a:link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #0e1519;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+/** footer section **/
+
 .footer {
   background-color: #d3d3d3;
+}
+
+.contact-info {
+  padding: 20px 0 0 0;
+}
+
+.contact-info h2 {
+  font-size: 35px;
+}
+
+.contact-info h2, p {
+  color: #0e1519;
 }
